@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+		ED8B76EC90CA1D894B6D38663D04C292 /* AppCenterReactNativeShared */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */,
+			);
+			name = AppCenterReactNativeShared;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F79A3C057E86BECB64EE201F4D34389 /* Pods-TinderDecker-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC39AAA860E22A2CF5FA2CB6DD11AFEA /* Pods-TinderDecker-tvOSTests-dummy.m */; };
+		1E36050C9FE97F51BB3460BB1EA331D6 /* Pods-TinderDeckerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933B27B597FBC5FF1517D66B579E1EA /* Pods-TinderDeckerTests-dummy.m */; };
+		3307A86C1308F2580BDFC21D66103540 /* Pods-TinderDecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD20B65542E8DDA01C8E62527C4A00D /* Pods-TinderDecker-dummy.m */; };
+		641E33A5BA395006F31F0F9F7FA649DB /* Pods-TinderDecker-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC454E87C2D1C811416365BAAA6017A /* Pods-TinderDecker-tvOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272885C03430EDF752135A1C5FA0E0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CE0C06BAAA3CA49684FB16C7F93CC22;
+			remoteInfo = "Pods-TinderDecker";
+		};
+		7F98DFD7C95013721F45E19E4E6A4817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397BBDFEBE9CC818487FA8ABB7623A33;
+			remoteInfo = AppCenter;
+		};
+		994B48EDDDA828B664BE6BAF42D63D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2572F97C38EBE7C8E6FF64137D077ADD;
+			remoteInfo = "Pods-TinderDecker-tvOS";
+		};
+		C77BEAEE38B48DE50B887A3ACE24A56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8B76EC90CA1D894B6D38663D04C292;
+			remoteInfo = AppCenterReactNativeShared;
+		};
+		D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397BBDFEBE9CC818487FA8ABB7623A33;
+			remoteInfo = AppCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028093B0F1CC85CCCC9FE6B9FF798538 /* libPods-TinderDecker-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TinderDecker-tvOS.a"; path = "libPods-TinderDecker-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E5B5610F86273F844E07C7E136A98F /* Pods-TinderDecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDecker.debug.xcconfig"; sourceTree = "<group>"; };
+		101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		1577CE32FD83343868C28F307218AB45 /* Pods-TinderDecker-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDecker-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		24F22BC013933AF666653278AEE0917F /* Pods-TinderDeckerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderDeckerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		258EB52FFC588AB4E4452DB859213CF9 /* Pods-TinderDecker-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDecker-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		3637164C4A577130073F0BC4E6AB9B2B /* Pods-TinderDecker-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDecker-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D6B780461027F8A9E1EECC4DE5A2F5C /* libPods-TinderDeckerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TinderDeckerTests.a"; path = "libPods-TinderDeckerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B2F571E48C4910FC8B4D1BFB12EFDD /* Pods-TinderDecker-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDecker-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.xcconfig; sourceTree = "<group>"; };
+		5D3064C9AA7D88ACEFC7715F0F4B31A8 /* Pods-TinderDecker-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDecker-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6267F392ECC15D2271DF116BC19C50FA /* Pods-TinderDeckerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDeckerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62A416182947ADDB61F90A5804CC2781 /* Pods-TinderDeckerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDeckerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63119F3B5DEE037C31D3940ED7704092 /* Pods-TinderDecker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderDecker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A9792FCC33D669A71920D3FBFF29431 /* Pods-TinderDecker-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderDecker-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BD20B65542E8DDA01C8E62527C4A00D /* Pods-TinderDecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderDecker-dummy.m"; sourceTree = "<group>"; };
+		77F4BF6321BAF1970D520E1B131B8544 /* libPods-TinderDecker-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TinderDecker-tvOSTests.a"; path = "libPods-TinderDecker-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7933B27B597FBC5FF1517D66B579E1EA /* Pods-TinderDeckerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderDeckerTests-dummy.m"; sourceTree = "<group>"; };
+		7CC454E87C2D1C811416365BAAA6017A /* Pods-TinderDecker-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderDecker-tvOS-dummy.m"; sourceTree = "<group>"; };
+		8104DE9EC617BE5BBD6B4593D2128A69 /* Pods-TinderDeckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDeckerTests.release.xcconfig"; sourceTree = "<group>"; };
+		82EEC2802EE22A0F4C1C390566121985 /* Pods-TinderDecker-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDecker-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		886A38180D5A1FA894DA25E62945676B /* Pods-TinderDecker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDecker-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AF2E4E22A53926F4F72D2019D40FD6E /* Pods-TinderDecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDecker.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterReactNativeShared.xcconfig; sourceTree = "<group>"; };
+		E76F0B753B48689C87C7E9FC9A7762F8 /* Pods-TinderDecker-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderDecker-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC39AAA860E22A2CF5FA2CB6DD11AFEA /* Pods-TinderDecker-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderDecker-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		F3778186353D0CE8B3B19D6DF358E0BB /* libPods-TinderDecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TinderDecker.a"; path = "libPods-TinderDecker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5706082ECDE05ED432BAD783493F21D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E26776939105D2CA7A21D779B5084F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EE7F89917BEFBC25B138EE5AD6E3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE89E5349BA4AE534A7163FCEBDA23F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */,
+				C2F79BBE68CAC64203149AF75B3502BF /* Support Files */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		23977631E0E947775B0FF421D89FC310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25E91D3FA30BA5305B1A1661E56FB188 /* Pods-TinderDeckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				24F22BC013933AF666653278AEE0917F /* Pods-TinderDeckerTests-acknowledgements.markdown */,
+				62A416182947ADDB61F90A5804CC2781 /* Pods-TinderDeckerTests-acknowledgements.plist */,
+				7933B27B597FBC5FF1517D66B579E1EA /* Pods-TinderDeckerTests-dummy.m */,
+				6267F392ECC15D2271DF116BC19C50FA /* Pods-TinderDeckerTests.debug.xcconfig */,
+				8104DE9EC617BE5BBD6B4593D2128A69 /* Pods-TinderDeckerTests.release.xcconfig */,
+			);
+			name = "Pods-TinderDeckerTests";
+			path = "Target Support Files/Pods-TinderDeckerTests";
+			sourceTree = "<group>";
+		};
+		2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3824A704ED87F47A54F44B95ED09CB03 /* Pods-TinderDecker-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A9792FCC33D669A71920D3FBFF29431 /* Pods-TinderDecker-tvOSTests-acknowledgements.markdown */,
+				3637164C4A577130073F0BC4E6AB9B2B /* Pods-TinderDecker-tvOSTests-acknowledgements.plist */,
+				EC39AAA860E22A2CF5FA2CB6DD11AFEA /* Pods-TinderDecker-tvOSTests-dummy.m */,
+				258EB52FFC588AB4E4452DB859213CF9 /* Pods-TinderDecker-tvOSTests.debug.xcconfig */,
+				45B2F571E48C4910FC8B4D1BFB12EFDD /* Pods-TinderDecker-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-TinderDecker-tvOSTests";
+			path = "Target Support Files/Pods-TinderDecker-tvOSTests";
+			sourceTree = "<group>";
+		};
+		4AE25DCED7C4B85C3ABA383D044D8614 /* Pods-TinderDecker */ = {
+			isa = PBXGroup;
+			children = (
+				63119F3B5DEE037C31D3940ED7704092 /* Pods-TinderDecker-acknowledgements.markdown */,
+				886A38180D5A1FA894DA25E62945676B /* Pods-TinderDecker-acknowledgements.plist */,
+				6BD20B65542E8DDA01C8E62527C4A00D /* Pods-TinderDecker-dummy.m */,
+				05E5B5610F86273F844E07C7E136A98F /* Pods-TinderDecker.debug.xcconfig */,
+				9AF2E4E22A53926F4F72D2019D40FD6E /* Pods-TinderDecker.release.xcconfig */,
+			);
+			name = "Pods-TinderDecker";
+			path = "Target Support Files/Pods-TinderDecker";
+			sourceTree = "<group>";
+		};
+		5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */,
+				94182EE150168D8F091F83224D20C0A4 /* Core */,
+				9B7151692B2AC286B115FA8800335CA1 /* Crashes */,
+				D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		71BA62E293A3987F3D11FF067288B20D /* Pods-TinderDecker-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E76F0B753B48689C87C7E9FC9A7762F8 /* Pods-TinderDecker-tvOS-acknowledgements.markdown */,
+				1577CE32FD83343868C28F307218AB45 /* Pods-TinderDecker-tvOS-acknowledgements.plist */,
+				7CC454E87C2D1C811416365BAAA6017A /* Pods-TinderDecker-tvOS-dummy.m */,
+				5D3064C9AA7D88ACEFC7715F0F4B31A8 /* Pods-TinderDecker-tvOS.debug.xcconfig */,
+				82EEC2802EE22A0F4C1C390566121985 /* Pods-TinderDecker-tvOS.release.xcconfig */,
+			);
+			name = "Pods-TinderDecker-tvOS";
+			path = "Target Support Files/Pods-TinderDecker-tvOS";
+			sourceTree = "<group>";
+		};
+		921D9F4FED330909670C2E65B1618652 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AE25DCED7C4B85C3ABA383D044D8614 /* Pods-TinderDecker */,
+				71BA62E293A3987F3D11FF067288B20D /* Pods-TinderDecker-tvOS */,
+				3824A704ED87F47A54F44B95ED09CB03 /* Pods-TinderDecker-tvOSTests */,
+				25E91D3FA30BA5305B1A1661E56FB188 /* Pods-TinderDeckerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94182EE150168D8F091F83224D20C0A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				23977631E0E947775B0FF421D89FC310 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9B7151692B2AC286B115FA8800335CA1 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		AEF8285BE202B0DA68DDB6727FC21B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3778186353D0CE8B3B19D6DF358E0BB /* libPods-TinderDecker.a */,
+				028093B0F1CC85CCCC9FE6B9FF798538 /* libPods-TinderDecker-tvOS.a */,
+				77F4BF6321BAF1970D520E1B131B8544 /* libPods-TinderDecker-tvOSTests.a */,
+				3D6B780461027F8A9E1EECC4DE5A2F5C /* libPods-TinderDeckerTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F79BBE68CAC64203149AF75B3502BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterReactNativeShared";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				EE373CD21EE89767163B4F9D8A04C324 /* Pods */,
+				AEF8285BE202B0DA68DDB6727FC21B91 /* Products */,
+				921D9F4FED330909670C2E65B1618652 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE373CD21EE89767163B4F9D8A04C324 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */,
+				1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DEA188756049B90C2E067A7E2F54784 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607513499434B47F65F78777DFEB9231 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8117D46FE04917B949A335948883018E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974346CDD4BE820526ADAAA76763A4EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CE0C06BAAA3CA49684FB16C7F93CC22 /* Pods-TinderDecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D33CDA8C41F19661675623F97298B65 /* Build configuration list for PBXNativeTarget "Pods-TinderDecker" */;
+			buildPhases = (
+				8117D46FE04917B949A335948883018E /* Headers */,
+				D74B4CC692B728DB54A7960A84ECD5CE /* Sources */,
+				5706082ECDE05ED432BAD783493F21D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE9EC5A6EDB41F5E843127938A77D91 /* PBXTargetDependency */,
+				92B887C7FBA847E19874599963D94414 /* PBXTargetDependency */,
+			);
+			name = "Pods-TinderDecker";
+			productName = "Pods-TinderDecker";
+			productReference = F3778186353D0CE8B3B19D6DF358E0BB /* libPods-TinderDecker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2572F97C38EBE7C8E6FF64137D077ADD /* Pods-TinderDecker-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16C0AC9835CBF8ACE573510394DFCE8 /* Build configuration list for PBXNativeTarget "Pods-TinderDecker-tvOS" */;
+			buildPhases = (
+				2DEA188756049B90C2E067A7E2F54784 /* Headers */,
+				9074CA13E5828A79378940317DC10B2B /* Sources */,
+				AE89E5349BA4AE534A7163FCEBDA23F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TinderDecker-tvOS";
+			productName = "Pods-TinderDecker-tvOS";
+			productReference = 028093B0F1CC85CCCC9FE6B9FF798538 /* libPods-TinderDecker-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B73B1EF6E3F0EC7332147401D94583BD /* Pods-TinderDecker-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89360191ED368222FFBAD46E0290704F /* Build configuration list for PBXNativeTarget "Pods-TinderDecker-tvOSTests" */;
+			buildPhases = (
+				607513499434B47F65F78777DFEB9231 /* Headers */,
+				90B2AE44F7950C9A069A03BE687409E4 /* Sources */,
+				79E26776939105D2CA7A21D779B5084F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA1210CCF175EA74B8429B515E03954 /* PBXTargetDependency */,
+			);
+			name = "Pods-TinderDecker-tvOSTests";
+			productName = "Pods-TinderDecker-tvOSTests";
+			productReference = 77F4BF6321BAF1970D520E1B131B8544 /* libPods-TinderDecker-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F6FD53C6975C8C6FE31A421F30EA358E /* Pods-TinderDeckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18090F42A3CE71D56F5A4055EA24B9B9 /* Build configuration list for PBXNativeTarget "Pods-TinderDeckerTests" */;
+			buildPhases = (
+				974346CDD4BE820526ADAAA76763A4EB /* Headers */,
+				B64B6BA3D0D60E0C55DDBEDD377ECFEE /* Sources */,
+				86EE7F89917BEFBC25B138EE5AD6E3BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A38C7976DFD57297BCE6AE46415FECA /* PBXTargetDependency */,
+			);
+			name = "Pods-TinderDeckerTests";
+			productName = "Pods-TinderDeckerTests";
+			productReference = 3D6B780461027F8A9E1EECC4DE5A2F5C /* libPods-TinderDeckerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AEF8285BE202B0DA68DDB6727FC21B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */,
+				ED8B76EC90CA1D894B6D38663D04C292 /* AppCenterReactNativeShared */,
+				0CE0C06BAAA3CA49684FB16C7F93CC22 /* Pods-TinderDecker */,
+				2572F97C38EBE7C8E6FF64137D077ADD /* Pods-TinderDecker-tvOS */,
+				B73B1EF6E3F0EC7332147401D94583BD /* Pods-TinderDecker-tvOSTests */,
+				F6FD53C6975C8C6FE31A421F30EA358E /* Pods-TinderDeckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9074CA13E5828A79378940317DC10B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641E33A5BA395006F31F0F9F7FA649DB /* Pods-TinderDecker-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B2AE44F7950C9A069A03BE687409E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F79A3C057E86BECB64EE201F4D34389 /* Pods-TinderDecker-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64B6BA3D0D60E0C55DDBEDD377ECFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E36050C9FE97F51BB3460BB1EA331D6 /* Pods-TinderDeckerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74B4CC692B728DB54A7960A84ECD5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3307A86C1308F2580BDFC21D66103540 /* Pods-TinderDecker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = 397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */;
+			targetProxy = D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */;
+		};
+		6A38C7976DFD57297BCE6AE46415FECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TinderDecker";
+			target = 0CE0C06BAAA3CA49684FB16C7F93CC22 /* Pods-TinderDecker */;
+			targetProxy = 272885C03430EDF752135A1C5FA0E0B8 /* PBXContainerItemProxy */;
+		};
+		92B887C7FBA847E19874599963D94414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterReactNativeShared;
+			target = ED8B76EC90CA1D894B6D38663D04C292 /* AppCenterReactNativeShared */;
+			targetProxy = C77BEAEE38B48DE50B887A3ACE24A56D /* PBXContainerItemProxy */;
+		};
+		EBA1210CCF175EA74B8429B515E03954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TinderDecker-tvOS";
+			target = 2572F97C38EBE7C8E6FF64137D077ADD /* Pods-TinderDecker-tvOS */;
+			targetProxy = 994B48EDDDA828B664BE6BAF42D63D9E /* PBXContainerItemProxy */;
+		};
+		EDE9EC5A6EDB41F5E843127938A77D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = 397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */;
+			targetProxy = 7F98DFD7C95013721F45E19E4E6A4817 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0991F66565E91DB4FD17B3CD50B2000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3064C9AA7D88ACEFC7715F0F4B31A8 /* Pods-TinderDecker-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		1DCCAD8BAD309654804FCFF7723DA0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E5B5610F86273F844E07C7E136A98F /* Pods-TinderDecker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D7A263A4E501F3A603933F3E1E5D26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258EB52FFC588AB4E4452DB859213CF9 /* Pods-TinderDecker-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		44DA8D30A185CF39FF38CACD51676CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578FF688645FCC3C046F05BF35BA0C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6267F392ECC15D2271DF116BC19C50FA /* Pods-TinderDeckerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6F4D25CB9F599D775DBC451590213731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32DDD69BC51682C37D58E6E9C07B109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8104DE9EC617BE5BBD6B4593D2128A69 /* Pods-TinderDeckerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9EB99A64E494FE43CE71ABE06781F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B2F571E48C4910FC8B4D1BFB12EFDD /* Pods-TinderDecker-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		E4374ED594DFF65D64C87E2B22D81676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF2E4E22A53926F4F72D2019D40FD6E /* Pods-TinderDecker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5F22D4048E5E24BC1C29753AE74A0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EEC2802EE22A0F4C1C390566121985 /* Pods-TinderDecker-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18090F42A3CE71D56F5A4055EA24B9B9 /* Build configuration list for PBXNativeTarget "Pods-TinderDeckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578FF688645FCC3C046F05BF35BA0C94 /* Debug */,
+				A32DDD69BC51682C37D58E6E9C07B109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89360191ED368222FFBAD46E0290704F /* Build configuration list for PBXNativeTarget "Pods-TinderDecker-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7A263A4E501F3A603933F3E1E5D26E /* Debug */,
+				C9EB99A64E494FE43CE71ABE06781F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D33CDA8C41F19661675623F97298B65 /* Build configuration list for PBXNativeTarget "Pods-TinderDecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCCAD8BAD309654804FCFF7723DA0A8 /* Debug */,
+				E4374ED594DFF65D64C87E2B22D81676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */,
+				44DA8D30A185CF39FF38CACD51676CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D25CB9F599D775DBC451590213731 /* Debug */,
+				8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16C0AC9835CBF8ACE573510394DFCE8 /* Build configuration list for PBXNativeTarget "Pods-TinderDecker-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0991F66565E91DB4FD17B3CD50B2000D /* Debug */,
+				E5F22D4048E5E24BC1C29753AE74A0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

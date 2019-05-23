@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TinderDecker' do
+  pod 'AppCenter/Crashes', '~> 2.0.1'
+  pod 'AppCenter/Analytics', '~> 2.0.1'
+  pod 'AppCenterReactNativeShared', '~> 2.0.0'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TinderDecker
+
+
+
+  platform :ios, '9.0'
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
+
+  target 'TinderDeckerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'TinderDecker-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TinderDecker-tvOS
+
+  target 'TinderDecker-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
